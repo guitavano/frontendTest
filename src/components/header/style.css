@@ -1,0 +1,130 @@
+.header{
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.header .header-container{
+    max-width: 1260px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.header .header-container .info-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+
+.header .header-container .info-container .menu-mobile{
+    display: none;
+}
+
+.header .header-container .info-container .search-bar-container{
+    width: 70%;
+    min-width: 370px;
+}
+
+.header .header-container .info-container .search-bar-container .search-bar input{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid #7A7A7A;
+    height: 40px;
+}
+
+.header .header-container .info-container .search-bar-container .search-icon{
+    cursor: pointer;
+}
+
+.header .header-container .info-container .my-account{
+    min-width: 130px;
+}
+
+.header .header-container .info-container .my-account .my-account-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: #7A7A7A;
+}
+
+.header .header-container .info-container .my-account .my-account-container img{
+    margin-right: 5px;
+}
+
+.header .header-container .info-container .cart-container{
+    display: flex;
+    align-items: flex-start;
+    cursor: pointer;
+}
+
+.header .header-container .info-container .cart-container .cart-count{
+    background-color: #F8475F;
+    color: #ffffff;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+@media (max-width: 380px){
+    .header .header-container .info-container .search-bar-container{
+        min-width: none;
+    }
+}
+
+@media (max-width: 820px){
+    .header{
+        height: auto;
+    }
+
+    .header .header-container .info-container{
+        margin-left: 0;
+    }
+
+    .header .header-container .info-container .search-bar-container{
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .header .header-container{
+        flex-wrap: wrap;
+    }
+
+    .header .header-container .logo-container img{
+        margin: 15px;
+    }
+
+    .header .header-container .info-container .cart-container{
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin: 30px 10px;
+    }
+
+    .header .header-container .info-container .my-account{
+        display: none;
+    }
+
+    .header .header-container .info-container .menu-mobile{
+        display: block;
+        position: absolute;
+        top: 0;
+        margin: 35px 0px;
+    }
+    
+}
+
+@media (max-width: 1260px){
+    .header .header-container{
+        max-width: 100%;
+        margin: 0 20px;
+    }
+}
+

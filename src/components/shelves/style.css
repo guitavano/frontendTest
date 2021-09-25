@@ -1,0 +1,120 @@
+.shelves{
+    width: 100%;
+    max-width: 1260px;
+    margin: 30px auto;
+}
+
+.shelves .products{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.shelves .products article{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shelves .products article .product-info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    height: 180px;
+}
+
+.shelves .products article .product-info .price{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.shelves .products article .product-info .price .list-price{
+    color: #7A7A7A;
+}
+
+.shelves .products article .product-info .price .full-price{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.shelves .products article .product-info:hover{
+    cursor: pointer;
+    background-color: #E6E8EA;
+}
+
+.shelves .products article .product-info button{
+    display: none;
+    margin: 15px;
+}
+
+.shelves .products article .product-info:hover button{
+    display: block;
+}
+
+.shelves .products article .product-info .product-name{
+    color: #7A7A7A;
+    font-weight: 300;
+    margin: 10px;
+    min-height: 40px;
+}
+
+.shelves .products article .product-info .buy-button{
+    color: white;
+    background-color: black;
+    width: 150px;
+    height: 50px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.shelves .gray-line{
+    width: 60px;
+    height: 5px;
+    background-color: #C0C0C0;
+    margin: 10px 0 20px 0;
+}
+
+.shelves .rec-arrow{
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.shelves .rec-arrow:hover {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.shelves h3, .shelves .gray-line {
+    margin-left: 5vw;
+}
+
+@media (max-width: 500px){
+    .shelves h3, .shelves .gray-line {
+        margin-left: 5vw;
+    }
+
+    .shelves .products article .product-info .product-name{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 600px){
+    .shelves .products article img{
+        width: 150px;
+    }
+}
+
+@media (max-width: 820px){
+    .shelves .products article .product-info .buy-button{
+        display: block;
+    }
+}
