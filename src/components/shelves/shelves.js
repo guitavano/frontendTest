@@ -86,7 +86,6 @@ export default function CreateVitrine() {
     }
 
     function verifyProduct(value) {
-        console.log(value)
         let classToReturn = ""
         if (value != null) {
             classToReturn = "off"
