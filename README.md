@@ -1,7 +1,5 @@
 # Teste Frontend Corebiz :computer:
 
-<hr>
-
 ## Sobre o projeto :triangular_flag_on_post:
 
 #### Projeto desenvolvido para Teste Frontend, as tecnologias usadas foram HTML5, CSS3 e JS (React), construído a partir de um Mockup definido.
