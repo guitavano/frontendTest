@@ -7,9 +7,27 @@
     align-items: center;
 }
 
-.newsletter h2{
-    font-size: 2rem;
+.newsletter .newsletter-successful{
+    display: none;
+    height: auto;
+    text-align: center;
+}
+
+.newsletter .newsletter-successful .button-new-register{
+    width: 350px;
+    height: 60px;
+    font-size: 1.2rem;
     margin: 20px;
+    background-color:#000000;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newsletter h2{
+    font-size: 1.5rem;
+    margin: 20px;
+    text-align: center;
     color: #333333;
 }
 

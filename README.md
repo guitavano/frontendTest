@@ -54,7 +54,7 @@ $ npm start
 - [x] Adicionar produtos ao Carrinho
 - [x] Carrinho preservado ao atualizar a página
 - [x] Validações para o Form de Contato
-- [ ] Uso da API com os dados de contato (Em desenvolvimento)
+- [x] Uso da API com os dados de contato
 
 <br>
 
