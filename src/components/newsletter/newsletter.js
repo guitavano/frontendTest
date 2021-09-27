@@ -3,9 +3,13 @@ import axios from 'axios';
 
 export default function CreateNewsletter() {
 
-    if (document.querySelector('.newsletter-successful')) {
-        document.querySelector('.newsletter-successful').style.display = "none"
+    function clearNewsletter() {
+        if (document.querySelector('.newsletter-successful')) {
+            document.querySelector('.newsletter-successful').style.display = "none"
+        }
     }
+
+    clearNewsletter()
 
     function cadastraLead(e) {
         e.preventDefault()

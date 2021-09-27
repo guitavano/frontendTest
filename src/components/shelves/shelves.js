@@ -6,12 +6,14 @@ import ProductCarousel from 'react-elastic-carousel'
 export default function CreateVitrine() {
     const [product, setProduct] = useState([]);
 
+    // Define os pontos de quebra da Vitrine
     const breakPoints = [
         { width: 550, itemsToShow: 2, itemsToScroll: 2 },
         { width: 768, itemsToShow: 3 },
         { width: 1000, itemsToShow: 4 }
     ];
 
+    // Salva os produtos no LocalStorage
     function saveProducts() {
         axios.get("https://corebiz-test.herokuapp.com/api/v1/products")
             .then(response => {
@@ -27,6 +29,7 @@ export default function CreateVitrine() {
 
     saveProducts()
 
+    // Salva os produtos adicionados ao Carrinho no LocalStorage
     function addtoCart(obj, event) {
         let cart = localStorage.getItem('cart')
         let productsCart = []
@@ -82,7 +85,6 @@ export default function CreateVitrine() {
 
         return star;
     }
-
 
     return (
         <section className="shelves w-100">

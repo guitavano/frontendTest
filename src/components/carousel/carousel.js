@@ -7,6 +7,7 @@ import bannerPreto from './../../images/banner-preto.png';
 
 export default function CreateCarousel() {
 
+    // Banners principais da Home
     const data = [
         {
             image: banner
