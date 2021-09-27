@@ -60,5 +60,5 @@ $ npm start
 
 ## Responsividade
 
-<img src="https://github.com/guitavano/frontendTest/blob/main/src/images/responsive.gif" width="100%">
+<img src="https://github.com/guitavano/frontendTest/blob/main/src/images/gifResponsive.gif" width="100%">
 
