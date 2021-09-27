@@ -8,7 +8,7 @@
 
 ## Como visualizar :mag:
 
-#### Para visualizar este projeto na Web [clique aqui]() (em caso de tela branca, atualize a página)
+#### Para visualizar este projeto na Web [clique aqui](https://frontend-test-corebiz.netlify.app/) (em caso de tela branca, atualize a página)
 
 <br>
 
